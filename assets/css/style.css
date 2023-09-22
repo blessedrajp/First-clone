@@ -1,0 +1,251 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Overpass', sans-serif; */
+    background: whitesmoke;
+    
+}
+/* header */
+#header{
+
+}
+.navbar{
+    background-color: black;
+    z-index:2 ;
+}
+.navbar-brand{
+color: white !important;
+font-family: 'Josefin Sans', sans-serif;
+}
+.navbar-nav{
+}
+.nav-item .nav-link{
+    color:white !important;
+    margin-left: 21px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav-link{
+
+}
+
+.content{
+    background-color: white;
+}
+/* banner */
+#banner{
+
+}
+.banner-img{
+    z-index: -1;
+    height:100% !important;
+    width:100%;
+    position: fixed;
+    top:0;
+}
+.banner-icon i{
+color:grey;
+font-size: 30px;
+position:relative;
+top:500px
+}
+.container{
+}
+.img-fluid{
+
+}
+.banner-back{
+    /* height: 57vh;
+    background: #0000000d;
+    position: relative;
+    bottom: 337px; */
+}
+.banner-back h1{
+    color:white
+}
+.banner-title{
+    color: white;
+    position: relative;
+    top: 320px;
+    font-size: 77px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.banner-title::before{
+    content: "Front";
+    color:yellow
+}
+
+/* about */
+#about{
+    background-color: whitesmoke;
+    margin-top: 50%;
+}
+.about-left{
+    margin-left: 52px;
+}
+.about{
+    background-color: white;
+}
+.skill .range{
+    width: 97%;
+  
+  }
+  .skill h2{
+    font-weight: bolder;
+  }
+
+ .about-para p{
+    font-size: 22px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:grey
+ }
+ .about-para h1{
+    font-weight: bolder;
+ }
+
+ /* services */
+ #services{
+    background-color: whitesmoke;
+ }
+ .service-title{
+    background-color: whitesmoke;
+ }
+ .service-title h1{
+    font-weight: bolder;
+    margin-top: 10px;
+ }
+ .service-title p{
+    color:grey;
+ }
+ .service-case{
+    margin-left: 58px;
+ }
+ .service-icon{
+
+ }
+ .service-icon i{
+    font-size: 40px;
+    margin-top: 16px;
+    border: solid 10px #007bff;
+    border-radius: 50%;
+    padding: 22px;
+ }
+    .service-icon i:hover{
+        color:white;
+        background-color: black;
+        border-color: grey;
+    }
+
+ .service-box-title{
+
+ }
+ .service-box-title h1{
+    font-size: 25px;
+ }
+ #service-down{
+    background-color: blue;
+ }
+ .service-bottom{
+ }
+ .service-bottom i{
+    padding: 20px;
+    border: #007bff solid 10px;
+    border-radius: 50%;
+    color:#007bff;
+    font-size: 30px;
+ }
+ .service-bottom h1{
+    color:#007bff
+ }
+ .service-bottom h3{
+    color:#007bff
+
+ }
+ /* portfolio */
+
+ .portfolio-title h1{
+    font-weight: bolder;
+ }
+ .porfolio-case{
+    margin-left: 44px;
+ }
+ .porfolio-case .card{
+    width:30%
+ }
+ .porfolio-case .card i{
+    font-size: 30px;
+    color:#007bff
+ }
+ .port-date{
+    font-size: 12px;
+ }
+ .port-date::before{
+    content: "Web design";
+    color:#007bff
+ }
+
+
+ 
+
+@media (min-width:320px) and (max-width:700px){
+    
+    .banner-img{
+        height:100vh !important;
+        object-fit: cover;
+        object-position: center;
+    }
+    .banner-icon i{
+        color:grey;
+        font-size: 30px;
+        position:relative;
+        top:500px
+        }
+        
+    #about{
+        background-color: whitesmoke;
+        margin-top: 140%;
+    }
+    .about-left{
+        margin-left: 10px;
+    }
+    .service-case{
+        margin-left: 0px;
+     }
+     #service-down{
+        background-color: blue;
+     }
+     .porfolio-case{
+        margin-left:10px;
+     }
+     .porfolio-case .card{
+        width:95% !important
+     }
+    
+}
+@media (min-width:701px) and (max-width:1200px){
+    .banner-img{
+        height:100vh !important;
+        object-fit: cover;
+        object-position: center;
+    }
+    #about{
+        background-color: whitesmoke;
+        margin-top: 140%;
+    }
+    .about-left{
+        margin-left: 10px;
+    }
+    .service-case{
+        margin-left: 2px;
+     }
+     #service-down{
+        background-color: blue;
+        height:160vh;
+     }
+     .porfolio-case .card{
+        width:95% !important
+     }
+
+}
