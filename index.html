@@ -1,464 +1,340 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ASSESEMENT</title>
-        <link href="css/style.css" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Barlow:wght@100&family=PT+Sans&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/b331d0e423.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <section id="header">
-            <h1 class="title">
-                BLESSED <i class="fa-solid fa-user-tie" style=""></i>
-            </h1>
-            <u1 class="menu">
-                <li class="menuitems"><a href="index.html" class="menuitems_link active">Home</a></li>
-                <li class="menuitems"><a href="" target="_self" class="menuitems_link">About</a></li>
-                <li class="menuitems"><a href="" class="menuitems_link">Services</a></li>
-                <li class="menuitems"><a href="" class="menuitems_link">Portfolio</a></li>
-                <li class="menuitems"><a href="" class="menuitems_link">Team</a></li>
-                <li class="menuitems"><a href="" class="menuitems_link">Blog</a></li>
-                <li class="menuitems DDshow1"><a href="" class="menuitems_link">Dropdown <i class="fa-solid fa-chevron-down"></i></a>
-                <ul class="drop-block">
-                    <li class="dd-list"><a href="" class="ddlink">dropdown1</a></li>
-                    <li class="dd-list DDshow2"><a href="" class="ddlink">dropdown2</a>
-                        <ul class="drop-block2">
-                            <li class="dd-list2"><a href="" class="ddlink2">Deep dropdown 1</a></li>
-                            <li class="dd-list2"><a href="" class="ddlink2">Deep dropdown 2</a></li>
-                            <li class="dd-list2"><a href="" class="ddlink2">Deep dropdown 3</a></li>
-                            <li class="dd-list2"><a href="" class="ddlink2">Deep dropdown 4</a></li>
-                            <li class="dd-list2"><a href="" class="ddlink2">Deep dropdown 5</a></li>
-                        </ul></li>
-                    <li class="dd-list"><a href="" class="ddlink">dropdown3</a></li>
-                    <li class="dd-list"><a href="" class="ddlink">dropdown4</a></li>
-                    <li class="dd-list"><a href="" class="ddlink">dropdown5</a></li>
-                </ul>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Josefin+Sans&family=Overpass:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b331d0e423.js" crossorigin="anonymous"></script>
+    <title>One-Page-Template</title>
+  </head>
+  <body>
+    <!-- header -->
+    <section id="header">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">Blessed</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa-solid fa-bars" style="color:white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="menuitems"><a href="" class="menuitems_link">Contact</a></li>
-            </u1>
-            <a href="" class="getstarted">Get Started</a>
-            <div class="headicon">
-                <i class="fa-solid fa-bars"></i>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
             </div>
-        </section>
-        <section id="banner">
-            <!-- <div class="bannerimg"> -->
-            <!-- <img src="./images/banner6.jpeg" alt=""> -->
-            <div class="bannerback">
-            <div class="titleblock">
-            <h1 class="banner_title">Welcome to Website</h1>
-            <p class="banner_quote"> I am Blessed 20 years old boy learning full-stack course in APJ dream tech. This website is the result of my first month learning in front end </p>
-            <a href="#" class="Readmore">Read More</a>
+          </div> 
+        </nav>
+      </section>
+
+      <!-- banner -->
+      <section id="banner">
+        <img src="/assets/images/hero.jpg" class="img-fluid banner-img" alt="" style="">
+        <div class="text-center banner-icon fade-down" data-aos="fade-down">
+          <h1 class= "banner-title text-center mt-5 fade-down">-End-Developer</h1>
+          <i class="fa-solid fa-chevron-down fa-bounce" ></i>
+          <!-- <button type="button" class="btn btn-secondary"style="margin-top: 400px;">Learn more</button> -->
+        </div>
+      </section>
+      <!-- About -->
+  <section class="content">
+      <section id="about">
+        <div class="container-fluid mt-5 about">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 about-left" >
+            <div class="row mt-5">
+              <div class="col ">
+                <img src="assets/images/testimonial-2.jpg" class="img-thumbnail" alt="...">
+              </div>
+              <div class="col">
+                <p><span style="font-weight: bold;">Name:</span>Blessed raj P</p>
+                <p><span style="font-weight: bold;">profile:</span>Full-Stack-Developer</p>
+                <p><span style="font-weight: bold;">Email:</span>blessedrajp@gmail.com</p>
+                <p><span style="font-weight: bold;">Contact:</span>7305741744</p>
+              </div>
+            </div>
+            <div class="skill">
+              <h2>Skill</h2>
+              <p> HTML 85%</p>
+              <input  type="range" min="0" max="100" value="85" class="range"/>
+              <p> CSS 95%</p>
+              <input  type="range" min="0" max="100" value="95" class="range"/>
+              <p> PHP 50%</p>
+              <input  type="range" min="0" max="100" value="50" class="range"/>
+              <p> JAVA SCRIPT 90%</p>
+              <input  type="range" min="0" max="100" value="90" class="range"/>
+          </div>
+
+          </div>
+          <div class="col about-para mt-5">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum incidunt quasi facilis totam commodi aliquid voluptas natus deleniti itaque dolorem!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum incidunt quasi facilis totam commodi aliquid voluptas natus deleniti itaque dolorem!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum incidunt quasi facilis totam commodi aliquid voluptas natus deleniti itaque dolorem!</p>
+
+          </div>
+        </div>
+      </div>
+      </section>
+      <!-- services -->
+      <section id="services">
+        <div class="service-title text-center mt-5 fade-down">
+          <h1 class="mt-3">Services</h1>
+          <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsum officiis adipisci, quasi quaerat ex.</p>
+        </div>
+        <div class="container-fluid service-case">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="card mt-3 text-center shadow p-3 mb-5 bg-white rounded" style="width: 23rem; height: 20rem; border-radius: 20px;" data-aos="fade-up">
+              <div class="service-icon">
+              <i class="fa-solid fa-suitcase"></i>
+              </div>
+              <div class="card-body service-box-title">
+                <h1>Web-Design</h1>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="card mt-3 text-center shadow p-3 mb-5 bg-white rounded" style="width: 23rem; height: 20rem; border-radius: 20px;" data-aos="fade-up">
+              <div class="service-icon">
+              <i class="fa-solid fa-ghost"></i>
+            </div>
+              <div class="card-body service-box-title">
+                <h1>Web-Develop</h1>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="card mt-3 text-center shadow p-3 mb-5 bg-white rounded" style="width: 23rem; height: 20rem; border-radius: 20px;" data-aos="fade-up">
+              <div class="service-icon">
+              <i class="fa-solid fa-camera-retro"></i>
+             </div>
+              <div class="card-body service-box-title">
+                <h1>Photography</h1>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="card mt-3 text-center shadow p-3 mb-5 bg-white rounded" style="width: 23rem; height: 20rem; border-radius: 20px;" data-aos="fade-up">
+              <div class="service-icon">
+              <i class="fa-solid fa-window-restore"></i>
+            </div>
+              <div class="card-body service-box-title">
+                <h1>Responsive</h1>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="card mt-3 text-center shadow p-3 mb-5 bg-white rounded" style="width: 23rem; height: 20rem; border-radius: 20px;" data-aos="fade-up">
+              <div class="service-icon ">
+              <i class="fa-solid fa-chart-pie"></i>
+            </div>
+              <div class="card-body service-box-title">
+                <h1>Graphic-Design</h1>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="card mt-3 text-center shadow p-3 mb-5 bg-white rounded" style="width: 23rem; height: 20rem; border-radius: 20px;" data-aos="fade-up">
+              <div class="service-icon">
+              <i class="fa-brands fa-servicestack"></i>
+              </div>
+              <div class="card-body service-box-title">
+                <h1>Services</h1>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
         </div>
         </div>
-        </section>
-        <section id="aboutus">
-            <div class="aboutleft">
-                <span class="topabout">ABOUT</span>
-                <h1 class="abouttitle">ABOUT US</h1>
-                <p class="aboutLpara">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <ul class="aboutlist">
-                    <i class="fa-solid fa-check-double" id="tick"></i>
-                    <li class="ablist1">Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-                    <i class="fa-solid fa-check-double" id="tick"></i>
-                    <li class="ablist1">Duis aute irure dolor in reprehenderit in voluptate velit</li>
-                    <i class="fa-solid fa-check-double" id="tick" ></i>
-                    <li class="ablist1">Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-                </ul>
-            </div>
-            <div class="aboutright">
-                <p class="aboutRpara">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="#" class="aboutlink">Learn More</a>
+      </section>
+
+      <section id="service-down" class="p-5 pb-3">
+        <div class="container">
+          <div class="row align-middle">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3 service-bottom text-center mt-3" data-aos="fade-up">
+              <i class="fa-solid fa-check"></i>
+              <h1 class="mt-3">50</h1>
+              <h3>Work Completed</h3>
+            </div> 
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3 service-bottom text-center mt-4" data-aos="fade-up">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <h1 class="mt-3">25</h1>
+              <h3>Experience</h3>
 
             </div>
-        </section>
-        <section id="about-box">
-            <div class="box1">
-                <i class="fa-regular fa-face-smile" id="boxicon"></i>
-                <h1 class="boxno">232</h1>
-                <p class="boxpara1">consequuntur quae qui deca rode</p>
-                <span class="boxlink">Find out more  >></span>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3 service-bottom text-center mt-4" data-aos="fade-up">
+              <i class="fa-solid fa-user-tie"></i>
+              <h1 class="mt-3">45</h1>
+              <h3>Total Clients</h3>
             </div>
-            <div class="box1">
-                <i class="fa-regular fa-newspaper" id="boxicon"></i>
-                <h1 class="boxno">521</h1>
-                <p class="boxpara2"> adipisci atque cum quia aut numquam delectus</p>
-                <span class="boxlink">Find out more  >></span>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-3 col-xxl-3 service-bottom text-center mt-4" data-aos="fade-up">
+              <i class="fa-solid fa-award"></i>
+              <h1 class="mt-3">75</h1>
+              <h3>Awards won</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio -->
+      <section id="portfolio">
+        <div class="portfolio-title text-center mt-5 fade-down">
+          <h1 class="mt-3">Portfolio</h1>
+          <p class="mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsum officiis adipisci, quasi quaerat ex.</p>
+        </div>
+
+      <div class="container-fluid porfolio-case">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4 mt-5" data-aos="fade-up">
+            <div class="card" style="width: 25rem;">
+              <img src="/assets/images/work-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                <p class="card-text" style="font-weight: bolder;">Bindo Laro Cado </p>
+                  </div>
+                  <div class="col pl-5">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+              </div>
+                <p class="port-date">/ 18 Sep. 2018</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4 mt-5" data-aos="fade-up">
+            <div class="card" style="width: 25rem;">
+              <img src="/assets/images/work-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                <p class="card-text" style="font-weight: bolder;">Loreda Cuno Nere </p>
+                  </div>
+                  <div class="col pl-5">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+              </div>
+                <p class="port-date">/ 18 Sep. 2018</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4 mt-5" data-aos="fade-up">
+            <div class="card" style="width: 25rem;">
+              <img src="/assets/images/work-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                <p class="card-text" style="font-weight: bolder;">Mavrito Lana Dere </p>
+                  </div>
+                  <div class="col pl-5">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+              </div>
+                <p class="port-date">/ 18 Sep. 2018</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4 mt-5" data-aos="fade-up">
+            <div class="card" style="width: 25rem;">
+              <img src="/assets/images/work-4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                <p class="card-text" style="font-weight: bolder;">Bindo Laro Cado </p>
+                  </div>
+                  <div class="col pl-5">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+              </div>
+                <p class="port-date">/ 18 Sep. 2018</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4 mt-5" data-aos="fade-up">
+            <div class="card" style="width: 25rem;">
+              <img src="/assets/images/work-5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                <p class="card-text" style="font-weight: bolder;">Studio Lena Mado </p>
+                  </div>
+                  <div class="col pl-5">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+              </div>
+                <p class="port-date">/ 18 Sep. 2018</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4 mt-5" data-aos="fade-up">
+            <div class="card" style="width: 25rem;">
+              <img src="/assets/images/work-6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                <p class="card-text" style="font-weight: bolder;">Studio Big Bang </p>
+                  </div>
+                  <div class="col pl-5">
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </div>
+              </div>
+                <p class="port-date">/ 18 Sep. 2018</p>
+              </div>
+            </div>
+          </div>
 
 
-            </div>
-            <div class="box1">
-                <i class="fa-solid fa-headset" id="boxicon"></i>
-                <h1 class="boxno">1463</h1>
-                <p class="boxpara3">aut commodi quaerat. Aliquam ratione</p>
-                <span class="boxlink">Find out more  >></span>
+        </div>
+      </div>
+      </section>
+
+      <section class="last text-center mt-5 p-2" style="background-color: #007bff; color: white;">
+        <p>© Copyright. All Rights Reserved</p>
+        <p>Designed by <span style="font-weight: bolder;">Blessed Raj</span></p>
+      </section>
+  
+  </section>
 
 
-            </div>
-            <div class="box1">
-                <i class="fa-solid fa-user-group"id="boxicon" ></i>
-                <h1 class="boxno">15</h1>
-                <p class="boxpara4"> rerum asperiores dolor molestiae doloribu</p>
-                <span class="boxlink">Find out more  >></span>
-            </div>
-        </section>
-        <section id="discuss">
-            <div class="dis-left">
-
-            </div>
-            <div class="dis-right">
-                <p class="dis-right-title">Eum ipsam laborum deleniti</p>
-                <p class="dis-right-para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
-                <div class="dissep">
-                <span class="dis-no">01</span>
-                <li class="dis-list"> Non consectetur a erat nam at lectus urna duis?</li></div>
-                <div class="dissep">
-                <span class="dis-no">02</span>
-                <li class="dis-list"> Feugiat scelerisque varius morbi enim nunc?</li></div>
-                <div class="dissep">
-                <span class="dis-no">03</span>
-                <li class="dis-list"> Dolor sit amet consectetur adipiscing elit?</li></div>
-            </div>
-        </section> 
-        <section id="services">
-            <div class="service">
-            <span class="servivestop">SERVICES</span>
-                <h1 class="servicestitle">CHECK OUR SERVICES</h1>
-            </div>
-            <section id="serviceback">
-                <div class="servicebox">
-                    <div class="iconbox">
-                        <i class="fa-solid fa-basketball" id="serviceicon"></i>
-                    </div>
-                    <span class="servicebox-title1">Lorem Ipsum</span>
-                    <p class="servicebox-para">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-                </div>
-                <div class="servicebox">
-                    <div class="iconbox">
-                        <i class="fa-regular fa-file-lines" id="fileicon"></i>
-                    </div>
-                    <span class="servicebox-title2">Divera don</span>
-                    <p class="servicebox-para">Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-                </div>
-                <div class="servicebox">
-                    <div class="iconbox">
-                        <i class="fa-solid fa-gauge-simple-high" id="serviceicon"></i>
-                    </div>
-                    <span class="servicebox-title3">Sed ut perspiciatis</span>
-                    <p class="servicebox-para">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-                </div>
-                <div class="servicebox">
-                    <div class="iconbox">
-                        <i class="fa-solid fa-earth-americas" id="serviceicon"></i>
-                    </div>
-                    <span class="servicebox-title4">Magni Dolores</span>
-                    <p class="servicebox-para">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-                </div>
-                <div class="servicebox">
-                    <div class="iconbox">
-                        <i class="fa-brands fa-youtube" id="serviceicon"></i>
-                    </div>
-                    <span class="servicebox-title5">Nemo Enim</span>
-                    <p class="servicebox-para">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-                </div>
-                <div class="servicebox">
-                    <div class="iconbox">
-                        <i class="fa-solid fa-archway" id="serviceicon"></i>
-                    </div>
-                    <span class="servicebox-title6">Dele cardo</span>
-                    <p class="servicebox-para">Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-                </div>
-            </section>  
-        </section>
-        <section id="testimony">
-            <div class="testimoni">
-                <span class="testimonytop">TESTSTIMONIALS</span>
-                    <h1 class="testimonytitle">TESTIMONIALS</h1>
-                </div>
-                <div class="testileft">
-                    <img src="./images/testimonials-1.jpg" class="testimage1">
-                    <h3 class="testititle1">Saul Goodman</h3>
-                    <span class="testiinfo1">Ceo & Founder</span>
-                    <i class="fa-solid fa-quote-left" id="testicon-left1"></i>
-                    <p class="testipara1">         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam odit est voluptates quae eveniet dolore, animi, vel incidunt consequatur obcaecati beatae iusto explicabo, reprehenderit fugiat eius ipsa doloribus consequuntur corporis.</p><i class="fa-solid fa-quote-right" id="testicon-left2"></i>
-                </div>
-                <div class="testiright">
-                    <img src="./images/testimonials-2.jpg" class="testimage2">
-                    <h3 class="testititle2">Sara Wilson</h3>
-                    <span class="testiinfo2">Designer</span>
-                    <i class="fa-solid fa-quote-left" id="testicon-right1"></i>
-                    <p class="testipara2">         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam odit est voluptates quae eveniet dolore, animi, vel incidunt consequatur obcaecati beatae iusto explicabo, reprehenderit fugiat eius ipsa doloribus consequuntur corporis.</p><i class="fa-solid fa-quote-right" id="testicon-right2"></i>
-                </div>
-                <!-- <div class="testibottom"> -->
-                <span class="testibottom2 testbfirst"></span>
-                <span class="testibottom2"></span>
-                <span class="testibottom2"></span>
-                <span class="testibottom2"></span>
-                <span class="testibottom2"></span>
-        </section>
-        <section class="call">
-            <h1 class="calltitle">Call To Action</h1>
-            <p class="callpara">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="#" class="callbox">Call To Action</a>
-        </section>
-    <section class="Portfolio">
-        <div class="portfoli">
-            <span class="portfolitop">PORTFOLIO</span>
-                <h1 class="portfolititle">CHECK OUR PORTFOLIO</h1>
-            </div>
-            <u1 class="portfollist">
-                <li class="portfol-list-ele portfolfirst">ALL</li>
-                <li class="portfol-list-ele">APP</li>
-                <li class="portfol-list-ele">CARD</li>
-                <li class="portfol-list-ele">WEB</li>
-            </u1>
-            <section class="portfoliimg">
-                <img class="portfol-image" src="./images/portfolio-1.jpg">
-                <img class="portfol-image" src="./images/portfolio-2.jpg">
-                <img class="portfol-image" src="./images/portfolio-3.jpg">
-                <img class="portfol-image" src="./images/portfolio-4.jpg">
-                <img class="portfol-image" src="./images/portfolio-5.jpg">
-                <img class="portfol-image" src="./images/portfolio-6.jpg">
-                <img class="portfol-image" src="./images/portfolio-7.jpg">
-                <img class="portfol-image" src="./images/portfolio-8.jpg">
-                <img class="portfol-image" src="./images/portfolio-9.jpg">
-            </section>
-    </section>
-    <section class="teams">
-        <div class="team">
-            <span class="teamtop">TEAM</span>
-                <h1 class="teamtitle">CHECK OUR TEAM</h1>
-            </div>
-    
-    <div class="teamimg">
-        <img src="./images/team-1.jpg" class="teamimages">
-        <img src="./images/team-2.jpg" class="teamimages">
-        <img src="./images/team-3.jpg" class="teamimages">
-        <img src="./images/team-4.jpg" class="teamimages">
-    </div>
-</section>
-<section class="pricing">
-    <div class="price">
-        <span class="pricetop">PRICING</span>
-            <h1 class="pricetitle">OUR COMPETING PRICES</h1>
-        </div>
-        <section id="pricingbox">
-        <div class="pricebox">
-            <span class="subscription sub1">Free</span>
-            <h1 class="amount">$0</h1>
-            <span class="duration">Per month</span>
-            <ul class="pricinglistbox">
-                <i class="fa-solid fa-check" id="priceicon"></i>
-                <li class="pricelist">Quam adipiscing vitae proin</li>
-                <i class="fa-solid fa-check" id="priceicon"></i>
-                <li class="pricelist">Nec feugiat nisl pretium</li>
-                <i class="fa-solid fa-check" id="priceicon"></i>
-                <li class="pricelist">Nulla at volutpat diam uteera</li>
-                <i class="fa-solid fa-xmark pbar" id="pbar"></i>
-                <li class="pricelist pricebarline"> Pharetra massa massa ultricies</li>
-                <i class="fa-solid fa-xmark" id="pbar"></i>
-                <li class="pricelist pricebarline">Massa ultricies mi quis hendrerit</li>
-            </ul>
-            <a href="#" class="pgetstarted">Get Started</a>
-
-        </div>
-        <div class="pricebox phighlight">
-            <span class="subscription sub2">Business</span>
-            <h1 class="amount">$29</h1>
-            <span class="duration">Per month</span>
-            <ul class="pricinglistbox">
-                <i class="fa-solid fa-check" id="priceicon"></i>
-                <li class="pricelist">Quam adipiscing vitae proin</li>
-                <i class="fa-solid fa-check" id="priceicon"></i>
-                <li class="pricelist">Nec feugiat nisl pretium</li>
-                <i class="fa-solid fa-check" id="priceicon"></i>
-                <li class="pricelist">Nulla at volutpat diam uteera</li>
-                <i class="fa-solid fa-check" id="priceicon"></i>
-                <li class="pricelist"> Pharetra massa massa ultricies</li>
-                <i class="fa-solid fa-check" id="priceicon"></i>
-                <li class="pricelist">Massa ultricies mi quis hendrerit</li>
-            </ul>
-            <a href="#" class="pgetstarted pgetcen">Get Started</a>
-                
-        </div>
-        <div class="pricebox">
-            <span class="subscription sub3">Developer</span>
-            <h1 class="amount">$49</h1>
-            <span class="duration">Per month</span>
-            <ul class="pricinglistbox">
-            <i class="fa-solid fa-check" id="priceicon"></i>
-            <li class="pricelist">Quam adipiscing vitae proin</li>
-            <i class="fa-solid fa-check" id="priceicon"></i>
-            <li class="pricelist">Nec feugiat nisl pretium</li>
-            <i class="fa-solid fa-check" id="priceicon"></i>
-            <li class="pricelist">Nulla at volutpat diam uteera</li>
-            <i class="fa-solid fa-check" id="priceicon"></i>
-            <li class="pricelist"> Pharetra massa massa ultricies</li>
-            <i class="fa-solid fa-check" id="priceicon"></i>
-            <li class="pricelist">Massa ultricies mi quis hendrerit</li>
-        </ul>
-        <a href="#" class="pgetstarted">Get Started</a>
-        </div>
-    </section>
-</section>
-<section class="FAQ">
-    <div class="frequent">
-        <span class="frequenttop">F.A.Q</span>
-            <h1 class="frequenttitle">FREQUENTLY ASKED QUESTIONS</h1>
-        </div>
-        <section class="FAQDpart">
-        <div class="faqdata">
-            <i class="fa-regular fa-circle-question" id="faqicon1"></i>
-            <h3 class="fdatabold">
-                Non consectetur a erat nam at lectus urna duis?
-            </h3>
-            <p class="fdatanorm">
-                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-            </p>
-            <span class="fdborder"></span>
-        </div>
-        <div class="faqdata">
-            <i class="fa-regular fa-circle-question" id="faqicon"></i>
-            <h3 class="fdatabold">
-                Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
-            </h3>
-            <p class="fdatanorm">
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-            </p>
-            <span class="fdborder"></span>
-        </div>
-        <div class="faqdata">
-            <i class="fa-regular fa-circle-question" id="faqicon"></i>
-            <h3 class="fdatabold">
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
-            </h3>
-            <p class="fdatanorm">
-                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.
-            </p>
-            <span class="fdborder"></span>
-        </div>
-        <div class="faqdata">
-            <i class="fa-regular fa-circle-question" id="faqicon"></i>
-            <h3 class="fdatabold">
-                Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
-            </h3>
-            <p class="fdatanorm">
-                Aperiam itaque sit optio et deleniti eos nihil quidem cumque. Voluptas dolorum accusantium sunt sit enim. Provident consequuntur quam aut reiciendis qui rerum dolorem sit odio. Repellat assumenda soluta sunt pariatur error doloribus fuga.
-            </p>
-            <span class="fdborder"></span>
-            <div class="faqdata faqdlast">
-                <i class="fa-regular fa-circle-question" id="faqicon"></i>
-                <h3 class="fdatabold">
-                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
-                </h3>
-                <p class="fdatanorm">
-                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                </p>
-                <span class="fdborder"></span>
-    </section>
-</section>
-<section class="CONTACTS">
-    <div class="contact">
-        <span class="contacttop">CONTACT</span>
-            <h1 class="contacttitle">CONTACT US</h1>
-        </div>
-        <section class="contact-dark"></sectio>
-        <section class="contact-left">
-            <div class="contact-map">
-                <i class="fa-solid fa-location-dot" id="con-icon"></i>
-                <h4 class="c-title">Our Address</h4>
-                <p class="c-para1">A108 Adam Street, New York, NY 535022</p>
-            </div>
-            <div class="contact-mail">
-                <i class="fa-regular fa-envelope" id="con-icon"></i>
-                <h4 class="c-title">Email Us</h4>
-                <p class="c-para1">info@example.com</p>
-                <p class="c-para1">contact@example.com</p>
-
-            </div>
-            <div class="contact-call">
-                <i class="fa-solid fa-phone-volume" id="con-icon"></i>
-                <h4 class="c-title">Call Us</h4>
-                <p class="c-para1">+1 5589 55488 55</p>
-                <p class="c-para1">+1 6678 254445 41</p>
-
-            </div>
-        </section>
-        <section class="contact-right">
-            <input type="text" placeholder="Your name" class="ipname">
-            <input type="email" placeholder="Your email" class="ipmail">
-            <input type="text" placeholder="Subject" class="ipsubject">
-            <textarea placeholder="Message" rows="8" cols="78.5" class="ipmsg"></textarea>
-            <a href="#" class="csendmessage">Send Message</a>
-        </section>
-    </section>
-</section>
-<section class="web-bottom">
-    <div class="last1">
-        <span class="lasttopbar"></span>
-        <h1 class="last1title">Blessed</h1>
-        <p class="last1para">Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</p>
-        <div class="lastaddress">
-            <span class="lastadd">A108 Adam Street</span>
-            <span class="lastadd">NY 535022, USA</span>
-        </div>
-        <div class="lastcontact">
-            <span class="lastno">Phone: +1 5589 55488 55</span>
-            <span class="lastno">Email: info@example.com</span>
-        </div>
-        <i class="fa-brands fa-twitter" id="lasticon"></i>
-        <i class="fa-brands fa-facebook-f" id="lasticon"></i>
-        <i class="fa-brands fa-instagram" id="lasticon"></i>
-        <i class="fa-brands fa-skype" id="lasticon"></i>
-        <i class="fa-brands fa-linkedin-in" id="lasticon"></i>
-    </div>
-    <div class="last2">
-        <p class="L2-title">Useful Links</p>
-        <u1 class="lastlist1">
-            <span class="L-listmark">></span>
-            <li class="L-list1">Home</li>
-            <span class="L-listmark">></span>
-            <li class="L-list1">About us</li>
-            <span class="L-listmark">></span>
-            <li class="L-list1">Services</li>
-            <span class="L-listmark">></span>
-            <li class="L-list1">Terms of service</li>
-            <span class="L-listmark">></span>
-            <li class="L-list1">Privacy policy</li>
-
-        </u1>
-    </div>
-    <div class="last3">
-        <p class="L2-title">Our Services</p>
-        <u1 class="lastlist1">
-            <span class="L-listmark">></span>
-            <li class="L-list1">Web Design</li>
-            <span class="L-listmark">></span>
-            <li class="L-list1">Web Development</li>
-            <span class="L-listmark">></span>
-            <li class="L-list1">Product Management</li>
-            <span class="L-listmark">></span>
-            <li class="L-list1">Marketing</li>
-            <span class="L-listmark">></span>
-            <li class="L-list1">
-                Marketing</li>
-
-        </u1>
-    </div>
-    <div class="last4">
-        <p class="L2-title">Our Newsletter</p>
-        <p class="L4-para"> Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-        <span class="lastsubbef"></span>
-        <a href="#" class="lastsub">
-            Subscribe
-        </a>
-    </div>
-    <div class="L-last">
-    <span class="LLborder"></span>
-    <p class="LLbtitle">© Copyright Multi. All Rights Reserved</p>
-    <p class="webmade">Designed by</p>
-    </div>
-</section>
-    </body>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
